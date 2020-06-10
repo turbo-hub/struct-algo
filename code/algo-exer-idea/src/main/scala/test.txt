@@ -1,0 +1,52 @@
+1. Hive数据表定义：  
+CREATE TABLE `test_table`(
+  `ra` int,  //码率
+ `t` int,   //
+ `tm` bigint, 
+ `custom_cols` map<string,string>  //("平台id"，版本号x.x.x)
+ ) 
+PARTITIONED BY (  `up_date` string)   
+
+其中，该表用数据日期分区，格式为"YYYY-MM-DD", custom_cols中的字段有"ptid, krv",
+`ptid`字段为表示平台类型的3个维度，格式为连续的10个数字字符构成的字符串。
+`krv`字段是版本号, 格式为 x.x.x，三段结构，其中x为1或多位数字。
+`t` 为数据记录类型，
+
+当t=1时，该记录用户的访问记录，
+  t=2 时，为播放计时打点记录，当t=2时，`tm` 字段表示本次计时打点距离上次计时打点的时间，单位是毫秒。
+  t=3，4，5，6 的记录不计入计算   
+
+给出以下SQL（要求所有krv和ptid的脏数据都映射成'NULL'字符串） 
+ 1). 获取2018-07-02这一天，所有t=1或2的ra，ptid, krv 和 tm字段
+
+select ra,
+if(custom_cols['ptid'] is null or custom_cols['ptid'] not rlike '^\\d{10}$', 'NULL', custom_cols['ptid']) as ptid,
+custom_cols[krv],tm from test_table
+
+
+where up_date = '2018-07-02'
+and t in (1,2)
+
+
+if(custom_cols['ptid'] is null or custom_cols['ptid'] not rlike '^\\d{10}$', 'NULL', custom_cols['ptid']) as ptid,
+
+
++\d{n}$  ^[0-9]*$
+^ 代表起始 $代表终止 \\d代表数字 {10}代表出现3次； + 代表重复一或多次
+if(custom_cols['krv'] is null or custom_cols['krv'] not rlike '^\\d+\\.\\d+\\.\\d+$', 'NULL', custom_cols['krv']) as krv
+if(custom_cols['krv'] is null or custom_cols['krv'].split('\\,') not rlike '^[1-9]*$', 'NULL', custom_cols['ptid']) as ptid,
+
+
+进一步，将上述SQL，演化为一个系统设计的题目； 
+
+首先，每条视频点击行为，会产生一套记录，包含用户和视频的信息，
+
+用户有年龄、学历、性别等维度，
+视频有频道、码率等，此外播放自身的特征，省份、版本号等信息； 
+
+假设我们需要设计一个分析师系统，
+分析师在页面上，通过拖拽的方式，配置 频道、版本、码率等维度，查看播放时长、Top播放视频等
+请你设计一个系统，包括数据存储、查询引擎的技术选型；
+
+olap  交互式
+存储需要考虑的是 是否有upsert 场景

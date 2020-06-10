@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="953bf741-3deb-42b5-ba4c-b8a3f8ab1f63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YW4pLThWU8MnUXVKKVPoblglGT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Python.fufu">
+    <configuration name="Sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algo-exer-pc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="array-exer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algo-exer-pc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array-exer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fufu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algo-exer-pc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fufu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algo-exer-pc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fufu" />
+        <item itemvalue="Python.Sort" />
+        <item itemvalue="Python.trans" />
+        <item itemvalue="Python.array-exer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="953bf741-3deb-42b5-ba4c-b8a3f8ab1f63" name="Default Changelist" comment="" />
+      <created>1583045198127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583045198127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="192" key="#Inspections" timestamp="1583329868169">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="880" y="192" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1583329868169" />
+    <state x="291" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583047202796">
+      <screen x="52" y="23" width="1628" height="1027" />
+    </state>
+    <state x="291" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.23.1628.1027@52.23.1628.1027" timestamp="1583047202796" />
+    <state x="547" y="161" key="#fufu" timestamp="1585018495157">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="547" y="161" key="#fufu/0.0.1680.1050@0.0.1680.1050" timestamp="1585018495157" />
+    <state width="1659" height="19" key="GridCell.Tab.0.bottom" timestamp="1585019486279">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="19" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585019486279" />
+    <state width="1659" height="19" key="GridCell.Tab.0.center" timestamp="1585019486278">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="19" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585019486278" />
+    <state width="1659" height="19" key="GridCell.Tab.0.left" timestamp="1585019486278">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="19" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585019486278" />
+    <state width="1659" height="19" key="GridCell.Tab.0.right" timestamp="1585019486279">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="19" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585019486279" />
+    <state width="846" height="363" key="GridCell.Tab.1.bottom" timestamp="1583334005727">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="846" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583334005727" />
+    <state width="846" height="363" key="GridCell.Tab.1.center" timestamp="1583334005727">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="846" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583334005727" />
+    <state width="846" height="363" key="GridCell.Tab.1.left" timestamp="1583334005726">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="846" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583334005726" />
+    <state width="846" height="363" key="GridCell.Tab.1.right" timestamp="1583334005727">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="846" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583334005727" />
+    <state x="260" y="186" key="SettingsEditor" timestamp="1583153420333">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="260" y="186" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583153420333" />
+    <state x="201" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1583134472584">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="201" y="196" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583134472584" />
+    <state x="247" y="215" key="com.intellij.ide.util.TipDialog/52.23.1628.1027@52.23.1628.1027" timestamp="1583047109378" />
+    <state x="375" y="92" width="851" height="826" key="find.popup" timestamp="1583058931524">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="375" y="92" width="851" height="826" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583058931524" />
+    <state x="415" y="113" width="824" height="807" key="find.popup/52.23.1628.1027@52.23.1628.1027" timestamp="1583047240341" />
+    <state x="849" y="165" key="refactoring.ChangeSignatureDialog" timestamp="1583330179228">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="849" y="165" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583330179228" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
